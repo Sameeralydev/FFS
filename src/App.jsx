@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router";
 import { Home } from "./Pages/Home";
 import { Lms } from "./Pages/Lms";
 import { Facilities } from "./Pages/Facilities";
-import { Chairman } from "./Pages/chairman";
+import { Chairman } from "./Pages/Chairman";
 import "./App.css";
 import { Principal } from "./Pages/Principal";
 import { Philosophy } from "./Pages/Philosophy";
