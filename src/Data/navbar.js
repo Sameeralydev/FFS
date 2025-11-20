@@ -1,47 +1,55 @@
+import React from "react";
+
 const navbarlinks = [
   {
-    label: "Explore FFS",
+    label: "Explore",
     menuItems: [
-      { label: "Chairman Message", link: "#" },
-      { label: "Principal Message", link: "#" },
-      { label: "Philosophy", link: "#" },
+      { label: "Chairman Message", link: "/chairman-message" },
+      { label: "Principal Message", link: "/principal-message" },
+      { label: "Philosophy", link: "/philosophy" },
     ],
   },
   {
     label: "Curriculum",
     menuItems: [
-      { label: "Our Curriculum", link: "#" },
-      { label: "MOntessori Wing", link: "#" },
-      { label: "Digital Education", link: "#" },
-      { label: "AI & Robotics", link: "#" },
-      { label: "Steam", link: "#" },
-      { label: "Competency-Based Education", link: "#" },
-      { label: "Personality Development", link: "#" },
-      { label: "Character Building", link: "#" },
-      { label: "Quran'an O Seerat As Syllabus", link: "#" },
+      { label: "Montessori Wing", link: "/montessori-wing" },
+      { label: "Digital Education", link: "/digital-education" },
+      { label: "AI & Robotics", link: "/ai-robotics" },
+      { label: "Steam", link: "/steam" },
+      { label: "Competency-Based Education", link: "/competency-based-education" },
+      { label: "Personality Development", link: "/personality-development" },
+      { label: "Character Building", link: "/character-building" },
+      { label: "Qur'an O Seerat As Syllabus", link: "/quran-o-seerat" },
     ],
   },
   {
-    label: "Events",
+    label: "Admission",
     menuItems: [
-      { label: "Resource 1", link: "#" },
-      { label: "Resource 2", link: "#" },
-      { label: "Resource 3", link: "#" },
+      { label: "Admission Process", link: "/admission-process" },
+      { label: "Discipline & Code of Dress", link: "/disipline+code-of-dress" },
     ],
+  },
+  {
+    label: "Holistic",
+    menuItems: [
+      { label: "Outdoor Educational Trips", link: "/outdoor-educational-trips" },
+      { label: "Physical Development", link: "/physical-development" },
+      { label: "Talent Hunt", link: "/intellectual-development" },
+    ],
+  },
+  {
+    label: "LMS",
+    link: "/lms"
+  },
+  {
+    label: "Facilities",
+    link: "/facilities"
   },
   {
     label: "Franchise Offer",
     menuItems: [
       { label: "Franchise Network Overview", link: "#" },
     ],
-  },
-  {
-    label: "LMS Pages",
-    link: "/lms"
-  },
-  {
-    label: "Facilities",
-    link: "/facilities"
   },
 ];
 

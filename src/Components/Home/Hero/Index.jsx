@@ -24,19 +24,19 @@ export const HeroSection = () => {
   }, []); // Run this effect only once when the component mounts
 
   return (
-    <div className="container-fluid p-0 position-relative hero_main_div">
+    <div className="container-fluid p-0  position-relative hero_main_div">
       <div className="video_container">
         <video controls width="100%" autoPlay muted loop id="customVideo">
           <source src={Dream} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
-      <img src={Hero} alt="" className="hero_img" />
-      <img src={Hero_one} alt="" className="hero_img_one" />
-      <img src={Hero_two} alt="" className="hero_img_two" />
-      <img src={Hero_line} alt="" className="hero_line_img" />
-      <img src={Hero_rocket} alt="" className="hero_rocket_img" />
-      <div className="container position-relative hero_div">
+      <img src={Hero} alt="" className="hero_img " />
+      <img src={Hero_one} alt="" className="hero_img_one " />
+      <img src={Hero_two} alt="" className="hero_img_two " />
+      <img src={Hero_line} alt="" className="hero_line_img " />
+      <img src={Hero_rocket} alt="" className="hero_rocket_img " />
+      <div className="container position-relative hero_div ">
         <div className="row">
           <div className="col-lg-6 ps-4 pe-4 ps-sm-0 pe-sm-0" data-aos="fade-left">
             <p className="hero_title">About Us</p>

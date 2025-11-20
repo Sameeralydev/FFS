@@ -105,6 +105,8 @@
 }
 
 .navbar_btn:hover {
+    background-color: var(--primaryColor);
+    border: none;
     transform: scale(1.1);
     /* Scale up when hovered */
 }

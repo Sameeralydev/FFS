@@ -35,7 +35,7 @@ export const Footer = () => {
             <ul className="list-unstyled d-flex flex-column gap-3">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-decoration-none text-white footer_link"
                 >
                   Home

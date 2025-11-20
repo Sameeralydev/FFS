@@ -29,9 +29,9 @@ export const CustomNavbar = () => {
           </Link>
           <div className="d-none d-sm-none d-lg-block">
             <div className="d-flex gap-lg-2 gap-xl-2 gap-xxl-3 align-items-center">
-              <Link to="/" className="homes">
+              {/* <Link to="/" className="homes">
                 <div className="navbar_home">Home</div>
-              </Link>
+              </Link> */}
               {navbarlinks.map((link, index) => (
                 <div
                   key={index}

@@ -6,6 +6,7 @@
 }
 
 .about_title {
+    text-decoration: underline;
     font-family: 'RecoletaAlt';
     font-size: 27px;
     color: var(--primaryColor);
@@ -14,6 +15,7 @@
 }
 
 .about_desp {
+    text-decoration: underline;
     font-family: 'RecoletaAlt';
     font-size: 65px;
     color: var(--blueColor);
