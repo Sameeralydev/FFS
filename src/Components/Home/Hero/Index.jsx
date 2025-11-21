@@ -23,6 +23,41 @@ export const HeroSection = () => {
     });
   }, []); // Run this effect only once when the component mounts
 
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const overlayStyle = {
+    position: "fixed",
+    inset: 0,
+    backgroundColor: "rgba(0,0,0,0.5)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 1200,
+  };
+
+  const modalStyle = {
+    background: "#2B2E82",
+    color: "#ffffff",
+    padding: "1.75rem",
+    borderRadius: "8px",
+    width: "90%",
+    maxWidth: "640px",
+    boxShadow: "0 6px 24px rgba(13,110,253,0.3)",
+    position: "relative",
+  };
+
+  const closeBtnStyle = {
+    position: "absolute",
+    top: "10px",
+    right: "10px",
+    background: "transparent",
+    border: "none",
+    color: "#fff",
+    fontSize: "1.5rem",
+    cursor: "pointer",
+    lineHeight: 1,
+  };
+
   return (
     <div className="container-fluid p-0  position-relative hero_main_div">
       <div className="video_container">
@@ -53,7 +88,12 @@ export const HeroSection = () => {
               promote National and Islamic values by uplifting the Educational
               Standards.
             </p>
-            <button className="hero_btn">
+            <button
+              className="hero_btn"
+              aria-label="Explore now"
+              type="button"
+              onClick={() => setModalOpen(true)}
+            >
               Explore Now
               <div className="hero_circle">
                 <MdArrowForward className="hero_circle_icon" />
@@ -75,6 +115,38 @@ export const HeroSection = () => {
       <div className="position-relative">
         <img src={About} alt="" className="about_img" />
       </div>
+
+      {modalOpen && (
+        <div
+          style={overlayStyle}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Information modal"
+        >
+          <div style={modalStyle}>
+            <button
+              onClick={() => setModalOpen(false)}
+              aria-label="Close modal"
+              style={closeBtnStyle}
+            >
+              &times;
+            </button>
+
+            <h3 style={{ marginTop: 0, marginBottom: "0.75rem" }}>About Future Foundation</h3>
+            <p style={{ marginBottom: "0.5rem", lineHeight: 1.6 }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante. Vestibulum id ligula porta felis euismod
+              semper. Cras mattis consectetur purus sit amet fermentum. Aenean
+              lacinia bibendum nulla sed consectetur.
+            </p>
+            <p style={{ lineHeight: 1.6 }}>
+              Sed posuere consectetur est at lobortis. Maecenas sed diam eget
+              risus varius blandit sit amet non magna. Curabitur blandit tempus
+              porttitor. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

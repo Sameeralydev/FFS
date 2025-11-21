@@ -99,6 +99,8 @@ video::-webkit-media-controls-panel {
 }
 
 .hero_btn {
+    text-decoration: none;
+    width: max-content;
     border-radius: 50px;
     padding: 8px 10px 8px 25px;
     font-family: 'Montserrat';
