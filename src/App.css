@@ -9,4 +9,17 @@
     --darkblueColor: blue;
     --inputColor: #1f1c2e;
 }
+html, body {
+  height: 100%;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth {
+  overscroll-behavior: none;
+}
+
+
 

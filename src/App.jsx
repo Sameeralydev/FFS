@@ -19,6 +19,10 @@ import { PhysicalDevelopment } from "./Pages/PhysicalDev";
 import { TalentHunt } from "./Pages/TalentHunt";
 import { AdmissionProcess } from "./Pages/AdmissionProcess";
 import { Discipline } from "./Pages/Discipline";
+import {AdmissionForm} from "./Components/AdmissionNow/About/Index.jsx";
+import {ContactUs} from "./Pages/ContactUs.jsx";
+
+
 function App() {
   return (
     <Routes>
@@ -41,7 +45,8 @@ function App() {
       <Route path="/intellectual-development" element={<TalentHunt />} />
       <Route path="/admission-process" element={<AdmissionProcess />} />
       <Route path="/disipline+code-of-dress" element={<Discipline />} />
-
+      <Route path="/admissionnow" element={<AdmissionForm />} />
+      <Route path="/contact-us" element={<ContactUs />} />
     </Routes>
   );
 }

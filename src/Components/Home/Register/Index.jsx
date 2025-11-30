@@ -12,6 +12,10 @@ export const RegisterSection = () => {
       duration: 1000,
     });
   }, []); // Run this effect only once when the component mounts
+
+  const handleContactNavigate = () => {
+    window.location.href = "/contact-us";
+  };
   return (
     <div className="container-fluid p-0 register_bg">
       <div className="row m-0 register_main">
@@ -34,7 +38,7 @@ export const RegisterSection = () => {
                 <MdArrowForward className="reg_circle_icon" />
               </div>
             </button>
-            <button className="reg_btn_one">
+            <button className="reg_btn_one" onClick={handleContactNavigate}>
               Contact Us
               <div className="reg_circle">
                 <MdArrowForward className="reg_circle_icon" />

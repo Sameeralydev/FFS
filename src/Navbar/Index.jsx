@@ -70,12 +70,14 @@ export const CustomNavbar = () => {
           </div>
           <div className="d-flex align-items-center gap-2">
             <div className="d-none d-sm-none d-lg-block">
-              <button className="navbar_btn">
-                Admission Now
-                <div className="navbar_circle">
-                  <MdArrowForward className="navbar_circle_icon" />
-                </div>
-              </button>
+              <Link to="/admissionnow" style={{ textDecoration: "none", color: "inherit" }}>
+                <button className="navbar_btn" type="button">
+                  Admission Now
+                  <div className="navbar_circle">
+                    <MdArrowForward className="navbar_circle_icon" />
+                  </div>
+                </button>
+              </Link>
             </div>
             <div className="navbar_toggle d-lg-none">
               <IoReorderThreeOutline />

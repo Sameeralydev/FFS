@@ -185,6 +185,32 @@ video::-webkit-media-controls-panel {
     top: -420px;
 }
 
+.modal-head{
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 35px;
+    color: #F6A506;
+    justify-self: center;
+    font-family: "RecoletaAlt";
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.buttonStyle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    border-radius: 4px;
+    border: 2px solid red;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+  };
+
 @media(min-width: 1200px) and (max-width: 1400px) {
     .about_img {
         width: 100%;

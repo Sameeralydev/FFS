@@ -1,17 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Layout } from "../layout/Index";
-import { HeroSection } from "../Components/Home/Hero/Index";
-import { AboutSection } from "../Components/Home/About/Index";
-import { LocationSection } from "../Components/Home/Location/Index";
-import { RegisterSection } from "../Components/Home/Register/Index";
-import { NewsSection } from "../Components/Home/News/Index";
-import { ParentsSection } from "../Components/Home/Parents/Index";
-import { TeacherSection } from "../Components/Home/Teacher/Index";
-import { ProfessionalSection } from "../Components/Home/Professional/Index";
+import { HeroSection } from "../Components/ContactUs/Hero/Index";
+import { ContactSection } from "../Components/ContactUs/About/Index";
 import { FaWhatsappSquare } from "react-icons/fa";
 import Scroll from "../assets/images/scroll.png";
 
-export const Home = () => {
+export const ContactUs = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   // Handle scroll event to show/hide button
@@ -36,14 +30,7 @@ export const Home = () => {
   return (
     <Layout>
       <HeroSection />
-      <AboutSection />
-      <LocationSection />
-      <TeacherSection />
-      <ProfessionalSection />
-      <RegisterSection />
-      {/* <NewsSection /> */}
-      <ParentsSection />
-      
+      <ContactSection />
       <a
         href="https://wa.me/yourphonenumber"
         target="_blank"

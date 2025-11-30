@@ -50,7 +50,7 @@ export const HeroSection = () => {
     position: "absolute",
     top: "10px",
     right: "10px",
-    background: "transparent",
+    background: "red",
     border: "none",
     color: "#fff",
     fontSize: "1.5rem",
@@ -127,23 +127,16 @@ export const HeroSection = () => {
             <button
               onClick={() => setModalOpen(false)}
               aria-label="Close modal"
-              style={closeBtnStyle}
+              className="buttonStyle"
             >
               &times;
             </button>
 
-            <h3 style={{ marginTop: 0, marginBottom: "0.75rem" }}>About Future Foundation</h3>
-            <p style={{ marginBottom: "0.5rem", lineHeight: 1.6 }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante. Vestibulum id ligula porta felis euismod
-              semper. Cras mattis consectetur purus sit amet fermentum. Aenean
-              lacinia bibendum nulla sed consectetur.
+            <h3 className="modal-head" >About Future Foundation</h3>
+            <p className="modal-desp" style={{ fontFamily:"Montserrat", marginBottom: "0.5rem", lineHeight: 1.6 }}>
+              The inspiration behind establishing Future Foundation School came from our leader, Rana Sohail Ahmad, who had a strong ambition to reform the community through education. Throughout his career, he made significant efforts to improve various aspects of education in society. In 1998, Future Foundation School embarked on its journey to fulfill the vision set by Rana Sohail Ahmad and Mrs. Rana Sohail Ahmad. Since its inception, the school has been continuously growing, thanks to the grace of ALLAH Almighty. Over time, the school has achieved numerous educational and societal milestones, always remaining committed to promoting national and Islamic values while uplifting educational standards. Future Foundation School has proudly secured 1st position worldwide in the Federal Board examinations, achieving this remarkable feat two times, once in 2019 and again in 2024.
             </p>
-            <p style={{ lineHeight: 1.6 }}>
-              Sed posuere consectetur est at lobortis. Maecenas sed diam eget
-              risus varius blandit sit amet non magna. Curabitur blandit tempus
-              porttitor. Etiam porta sem malesuada magna mollis euismod.
-            </p>
+           
           </div>
         </div>
       )}

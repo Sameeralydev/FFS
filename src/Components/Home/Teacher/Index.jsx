@@ -85,9 +85,7 @@ export const TeacherSection = () => {
         </p>
         <div className="d-flex justify-content-center" data-aos="fade-up">
           <p className="professional_desp">
-            Chasellus gravida lacus quis eros lobortis, nec dapibus quam
-            gravida. Duis sed augue vitae felis pellentesque varius nec quis
-            nunc. Morbi mauris augue, pulvinar quis luctus eget.
+            Our educators are committed to fostering meaningful learning experiences, guiding students with expertise and integrity. Through their dedication, they cultivate an environment where knowledge grows, skills strengthen, and every learner is encouraged to excel.
           </p>
         </div>
       </div>
@@ -120,17 +118,6 @@ export const TeacherSection = () => {
               </div>
               <h5 className="mt-4 text-teal">{member.name}</h5>
               <p className="text-muted">{member.description}</p>
-              <div className="d-flex justify-content-center gap-3 mt-3 pb-3">
-                <a className="social-icon">
-                  <FaFacebookF />
-                </a>
-                <a className="social-icon">
-                  <FaInstagram />
-                </a>
-                <a className="social-icon">
-                  <FaWhatsapp />
-                </a>
-              </div>
             </div>
           ))}
         </Slider>
