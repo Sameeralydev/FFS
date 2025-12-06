@@ -33,7 +33,7 @@
 
 .office-name {
     font-family: "Montserrat";
-  margin-top: 15px;
+  margin-top: 25px;
   font-size: 24px;
   font-weight: 700;
 }
@@ -45,6 +45,7 @@
   word-spacing: 2px;
   color: #777;
   max-width: 420px;
+  margin-bottom: 25px   !important;
 }
 
 .phone-row, .email-row {
@@ -53,7 +54,7 @@
   align-items: center;
   gap: 10px;
   font-size: 18px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .phone-icon, .email-icon {
@@ -72,9 +73,9 @@
 .contact-map iframe {
   width: 100%;
   height: 400px;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 0px 4px 15px rgba(255, 153, 0, 0.2);
+  border: solid 3px #101365;
+  border-radius: 10px;
+  /* box-shadow: 0px 4px 15px rgba(15, 15, 9, 0.4); */
 }
 
 /* RESPONSIVE */

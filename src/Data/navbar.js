@@ -46,9 +46,11 @@ const navbarlinks = [
     link: "/facilities"
   },
   {
-    label: "Franchise Offer",
+    label: "Become Franchisee",
     menuItems: [
-      { label: "Franchise Network Overview", link: "#" },
+      { label: "Franchise Offer", link: "/franchise-offer" },
+      { label: "Franchise Model", link: "/franchise-model" },
+      { label: "Our Campuses", link: "/our-campuses" },
     ],
   },
 ];

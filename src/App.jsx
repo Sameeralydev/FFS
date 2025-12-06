@@ -21,6 +21,9 @@ import { AdmissionProcess } from "./Pages/AdmissionProcess";
 import { Discipline } from "./Pages/Discipline";
 import {AdmissionForm} from "./Components/AdmissionNow/About/Index.jsx";
 import {ContactUs} from "./Pages/ContactUs.jsx";
+import { Franchiseoffer } from "./Pages/Franchiseoffer.jsx";
+import { OurCampuses } from "./Pages/OurCampuses.jsx";
+import { FranchiseModel } from "./Pages/FranchiseModel.jsx";
 
 
 function App() {
@@ -47,6 +50,9 @@ function App() {
       <Route path="/disipline+code-of-dress" element={<Discipline />} />
       <Route path="/admissionnow" element={<AdmissionForm />} />
       <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/franchise-offer" element={<Franchiseoffer />} />
+      <Route path="/franchise-model" element={<FranchiseModel />} />
+      <Route path="/our-campuses" element={<OurCampuses />} />
     </Routes>
   );
 }
