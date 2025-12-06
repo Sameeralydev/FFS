@@ -22,7 +22,7 @@
   position: absolute;
   left: 40%;
   top: 5px;
-  width: 100px;
+  width: 80px;
   animation: ProArrow 2s infinite ease-in-out;
 }
 
@@ -39,8 +39,8 @@
 }
 
 .pro_img {
-  width: 300px;
-  height: 350px;
+  width: 270px;
+  height: 330px;
   padding-top: 90px;
   z-index: 1;
 }

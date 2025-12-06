@@ -1,4 +1,8 @@
-import Pro from "../assets/images/pro.jpg";
+import Owner from "../assets/images/owner.png";
+import principal from "../assets/images/principal.png";
+import director from "../assets/images/director.png";
+import Pro from "../assets/images/pro.png";
+import Pro2 from "../assets/images/pro 2.png";
 import Fish from "../assets/images/pro_fish.png";
 import School from "../assets/images/pro_school.png";
 import Circle from "../assets/images/pro_circle.png";
@@ -34,6 +38,7 @@ export const messages = {
         mentors they interact with, and we have a highly experienced,
         skillful, dedicated teaching and support staff. They work together
         to provide flexibility in meeting the needs of all pupils.`,
+    image: Owner,
     owner: "Rana Sohail Ahmed",
     designation: "Founder & Chairman",
   },
@@ -42,7 +47,8 @@ export const messages = {
     description: `As the Principal, I believe in fostering a culture of excellence,
         compassion, and innovation. Our goal is to provide students with the
         skills and mindset they need to excel in a rapidly changing world.`,
-    owner: "John Doe",
+    image: principal,
+    owner: "Mrs Nighat Saqib",
     designation: "Principal",
   },
   Director: {
@@ -50,16 +56,50 @@ export const messages = {
     description: `As the Director, I am dedicated to ensuring that our students
         receive a holistic education that goes beyond academics, nurturing
         their talents and preparing them to lead with integrity.`,
-    owner: "Jane Smith",
+    image: director,
+    owner: "Mrs Saima Waqas",
     designation: "Director",
   },
 };
 
 export const teamMembers = [
   {
+    name: "Mrs Sadia Waheed",
+    description:
+      "Dedicated to shaping bright minds with passion and purpose. Guiding every learner toward confidence, clarity, and growth.",
+    image: Pro,
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    name: "Mrs Najma Waseem",
+    description:
+      "Inspiring knowledge with patience and purpose. Committed to helping every student learn, grow, and achieve more.",
+    image: Pro2,
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    name: "Emma Grace",
+    description:
+      "Always here to support, guide, and empower young learners. Helping them discover their strengths and shine every day.",
+    image: Pro,
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+  },
+  {
     name: "Sarah Michelle",
     description:
-      "Sit amet nisl suscipit adipiscing bibendum est. Aliquam ultrices sagittis orci a scelerisque purus.",
+      "Teaching with heart, leading with experience. Focused on building strong skills and lifelong confidence.",
     image: Pro,
     social: {
       facebook: "#",
@@ -70,7 +110,7 @@ export const teamMembers = [
   {
     name: "Mary Grace",
     description:
-      "Bibendum ut tristique et egestas quis ipsum suspendisse. Euismod quis viverra nibh cras pulvinar mattis nunc.",
+      "Empowering students through clear guidance and caring support, helping them build strong skills and a confident future.",
     image: Pro,
     social: {
       facebook: "#",
@@ -81,40 +121,7 @@ export const teamMembers = [
   {
     name: "Emma Grace",
     description:
-      "Vellentesque tristique tincidunt massa in faucibus. Sed est erat, pharetra id tortor ut, lacinia molestie ligula.",
-    image: Pro,
-    social: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-  {
-    name: "Sarah Michelle",
-    description:
-      "Sit amet nisl suscipit adipiscing bibendum est. Aliquam ultrices sagittis orci a scelerisque purus.",
-    image: Pro,
-    social: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-  {
-    name: "Mary Grace",
-    description:
-      "Bibendum ut tristique et egestas quis ipsum suspendisse. Euismod quis viverra nibh cras pulvinar mattis nunc.",
-    image: Pro,
-    social: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-  {
-    name: "Emma Grace",
-    description:
-      "Vellentesque tristique tincidunt massa in faucibus. Sed est erat, pharetra id tortor ut, lacinia molestie ligula.",
+      "Committed to creating a positive learning journey where every student feels valued, motivated, and ready to excel.",
     image: Pro,
     social: {
       facebook: "#",
@@ -131,6 +138,8 @@ export const smartactivity = [
       "Sit amet nisl suscipit adipiscing bibendum est. Aliquam ultrices sagittis orci a scelerisque purus.",
     image: Fish,
     imageone: School,
+    imageHeight: "200px",
+    imageWidth: "200px",
   },
   {
     name: "Team Activities",
@@ -138,6 +147,8 @@ export const smartactivity = [
       "Bibendum ut tristique et egestas quis ipsum suspendisse. Euismod quis viverra nibh cras pulvinar mattis nunc.",
     image: Circle,
     imageone: Person,
+    imageHeight: "200px",
+    imageWidth: "200px",
   },
   {
     name: "Invidual Activity",
@@ -145,6 +156,8 @@ export const smartactivity = [
       "Vellentesque tristique tincidunt massa in faucibus. Sed est erat, pharetra id tortor ut, lacinia molestie ligula.",
     image: Triangle,
     imageone: Football,
+    imageHeight: "200px",
+    imageWidth: "200px",
   },
   {
     name: "Physical Activities",
@@ -152,6 +165,8 @@ export const smartactivity = [
       "Sit amet nisl suscipit adipiscing bibendum est. Aliquam ultrices sagittis orci a scelerisque purus.",
     image: Fish,
     imageone: School,
+    imageHeight: "200px",
+    imageWidth: "200px",
   },
   {
     name: "Team Activities",
@@ -159,6 +174,8 @@ export const smartactivity = [
       "Bibendum ut tristique et egestas quis ipsum suspendisse. Euismod quis viverra nibh cras pulvinar mattis nunc.",
     image: Circle,
     imageone: Person,
+    imageHeight: "200px",
+    imageWidth: "200px",
   },
   {
     name: "Invidual Activity",
@@ -166,6 +183,8 @@ export const smartactivity = [
       "Vellentesque tristique tincidunt massa in faucibus. Sed est erat, pharetra id tortor ut, lacinia molestie ligula.",
     image: Triangle,
     imageone: Football,
+    imageHeight: "200px",
+    imageWidth: "200px",
   },
 ];
 

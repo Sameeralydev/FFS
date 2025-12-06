@@ -7,7 +7,7 @@ import Hero_two from "../../../assets/images/hero.png";
 import Hero_line from "../../../assets/images/hero_line.png";
 import Hero_rocket from "../../../assets/images/hero_rocket.png";
 import Hero_Img_one from "../../../assets/images/hero_img_one.png";
-import Hero_Img from "../../../assets/images/hero_img.png";
+import hero_img from "../../../assets/images/hero_img.jfif"
 import Hero_ellipse from "../../../assets/images/hero_ellipse.png";
 import Hero_three from "../../../assets/images/hero_three.png";
 import About from "../../../assets/images/about_bg.png";
@@ -105,7 +105,7 @@ export const HeroSection = () => {
             data-aos="fade-right"
           >
             <img src={Hero_Img_one} alt="" className="hero_second_img" />
-            <img src={Hero_Img} alt="" className="hero_main_img" />
+            <img src={hero_img} alt="" className="hero_main_img" />
             <img src={Hero_ellipse} alt="" className="hero_ellipse" />
             <img src={Hero_ellipse} alt="" className="hero_ellipse_one" />
           </div>
