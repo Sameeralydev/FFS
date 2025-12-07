@@ -28,6 +28,9 @@ import Cur_five from "../assets/images/cur_six.png";
 import Cur_five_plus from "../assets/images/cur_six_plus.png";
 import Star from "../assets/images/parents_star.png";
 import Test_Person from "../assets/images/parents_person.png";
+import Test_Person2 from "../assets/images/parent_person2.png";
+import Test_Person3 from "../assets/images/parent_person3.png";
+import Test_Person4 from "../assets/images/parent_person4.png";
 
 export const messages = {
   Chairman: {
@@ -135,7 +138,7 @@ export const smartactivity = [
   {
     name: "Physical Activities",
     description:
-      "Sit amet nisl suscipit adipiscing bibendum est. Aliquam ultrices sagittis orci a scelerisque purus.",
+      "Encouraging healthy movement and active routines that strengthen the body, refresh the mind, and build long-lasting energy, focus, and confidence.",
     image: Fish,
     imageone: School,
     imageHeight: "200px",
@@ -144,7 +147,7 @@ export const smartactivity = [
   {
     name: "Team Activities",
     description:
-      "Bibendum ut tristique et egestas quis ipsum suspendisse. Euismod quis viverra nibh cras pulvinar mattis nunc.",
+      "Promoting collaboration through group activities that build communication skills, mutual respect, leadership qualities, and the power of working together successfully.",
     image: Circle,
     imageone: Person,
     imageHeight: "200px",
@@ -153,34 +156,7 @@ export const smartactivity = [
   {
     name: "Invidual Activity",
     description:
-      "Vellentesque tristique tincidunt massa in faucibus. Sed est erat, pharetra id tortor ut, lacinia molestie ligula.",
-    image: Triangle,
-    imageone: Football,
-    imageHeight: "200px",
-    imageWidth: "200px",
-  },
-  {
-    name: "Physical Activities",
-    description:
-      "Sit amet nisl suscipit adipiscing bibendum est. Aliquam ultrices sagittis orci a scelerisque purus.",
-    image: Fish,
-    imageone: School,
-    imageHeight: "200px",
-    imageWidth: "200px",
-  },
-  {
-    name: "Team Activities",
-    description:
-      "Bibendum ut tristique et egestas quis ipsum suspendisse. Euismod quis viverra nibh cras pulvinar mattis nunc.",
-    image: Circle,
-    imageone: Person,
-    imageHeight: "200px",
-    imageWidth: "200px",
-  },
-  {
-    name: "Invidual Activity",
-    description:
-      "Vellentesque tristique tincidunt massa in faucibus. Sed est erat, pharetra id tortor ut, lacinia molestie ligula.",
+      "Supporting personal growth through independent tasks that develop self-discipline, critical thinking, creativity, and the confidence to achieve goals independently.",
     image: Triangle,
     imageone: Football,
     imageHeight: "200px",
@@ -314,33 +290,33 @@ export const Testimonials = [
   {
     id: 1,
     star: Star,
-    name: "Demo Name",
-    date: "30 Sep, 2024",
-    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet.",
-    image: Test_Person,
+    name: "Ayesha Khan",
+    date: "12 Aug, 2024",
+    review: "FFS (Future Foundation School) has provided a very positive and nurturing environment for my child. The teachers are caring, professional, and always ready to help. I have seen amazing improvement in my child’s confidence and learning skills.",
+    image: Test_Person3,
   },
   {
     id: 2,
     star: Star,
-    name: "Demo Name",
-    date: "30 Sep, 2024",
-    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet.",
+    name: "Muhammad Ali",
+    date: "25 Aug, 2024",
+    review: "I am extremely satisfied with FFS (Future Foundation School). The school focuses not only on academics but also on character building. My child feels happy and motivated to go to school every day.",
     image: Test_Person,
   },
   {
     id: 3,
     star: Star,
-    name: "Demo Name",
-    date: "30 Sep, 2024",
-    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet.",
-    image: Test_Person,
+    name: "Sana Ahmed",
+    date: "05 Sep, 2025",
+    review: "Future Foundation School has exceeded my expectations in every way. The staff is friendly, the classrooms are well-organized, and the teaching quality is excellent. I truly appreciate their efforts.",
+    image: Test_Person2,
   },
   {
     id: 4,
     star: Star,
-    name: "Demo Name",
-    date: "30 Sep, 2024",
-    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet.",
-    image: Test_Person,
+    name: "Usman Tariq",
+    date: "18 Jul, 2024",
+    review: "Choosing FFS (Future Foundation School) for my child was the best decision. The school offers a safe, supportive, and engaging learning environment. I highly recommend it to other parents.",
+    image: Test_Person4,
   },
 ];
