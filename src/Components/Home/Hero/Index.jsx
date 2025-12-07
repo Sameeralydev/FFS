@@ -7,7 +7,7 @@ import Hero_two from "../../../assets/images/hero.png";
 import Hero_line from "../../../assets/images/hero_line.png";
 import Hero_rocket from "../../../assets/images/hero_rocket.png";
 import Hero_Img_one from "../../../assets/images/hero_img_one.png";
-import hero_img from "../../../assets/images/hero_img.jfif"
+import hero_img from "../../../assets/images/hero_img.png"
 import Hero_ellipse from "../../../assets/images/hero_ellipse.png";
 import Hero_three from "../../../assets/images/hero_three.png";
 import About from "../../../assets/images/about_bg.png";
