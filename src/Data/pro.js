@@ -1,6 +1,6 @@
 import Owner from "../assets/images/owner.png";
-import principal from "../assets/images/principal.png";
 import director from "../assets/images/director.png";
+import director2 from "../assets/images/director2.png";
 import Pro from "../assets/images/pro.png";
 import Pro2 from "../assets/images/pro 2.png";
 import Fish from "../assets/images/pro_fish.png";
@@ -45,21 +45,21 @@ export const messages = {
     owner: "Rana Sohail Ahmed",
     designation: "Founder & Chairman",
   },
-  Principal: {
+  Director: {
     title: "Leadership Is About Inspiring Others!",
     description: `As the Principal, I believe in fostering a culture of excellence,
         compassion, and innovation. Our goal is to provide students with the
         skills and mindset they need to excel in a rapidly changing world.`,
-    image: principal,
-    owner: "Mrs Nighat Saqib",
-    designation: "Principal",
+    image: director,
+    owner: "Mrs Noreen Faisal",
+    designation: "Director",
   },
-  Director: {
+  Director2: {
     title: "Empowering Future Leaders!",
     description: `As the Director, I am dedicated to ensuring that our students
         receive a holistic education that goes beyond academics, nurturing
         their talents and preparing them to lead with integrity.`,
-    image: director,
+    image: director2,
     owner: "Mrs Saima Waqas",
     designation: "Director",
   },
@@ -320,3 +320,6 @@ export const Testimonials = [
     image: Test_Person4,
   },
 ];
+
+
+
