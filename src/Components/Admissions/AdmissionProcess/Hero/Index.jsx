@@ -13,14 +13,10 @@ export const HeroSection = () => {
 
   return (
     <div className="container-fluid p-0 position-relative overflow-hidden">
-      <div className="hero_fac_bg">
+      <div className="hero_admissionProcess_bg">
         <div className="lms_overlay"></div>
         <div className="lms_hero_content">
-          <h1 className="lms_hero_title">General Process</h1>
-          <p className="lms_heo_desp">
-            Home
-            <span className="lms-hero-breadcrumb-icon">🔻</span> Admissions
-          </p>
+         
         </div>
         <div className="hero_cloud_img" />
       </div>

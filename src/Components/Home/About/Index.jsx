@@ -42,7 +42,7 @@ export const AboutSection = () => {
   }, []); 
 
 return (
-  <div className="container-fluid p-0 about_div">
+  <div className="container-fluid p-0 about_div" id="about">
     <div className="position-relative">
       <img src={About_ellipse} alt="" className="about_ellipse_img" />
       <img src={About_ellipse_one} alt="" className="about_ellipse_img_one" />

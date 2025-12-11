@@ -13,6 +13,13 @@ import Person from "../assets/images/facilities/per.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosSend } from "react-icons/io";
 
+
+const handleContactNavigate = () => {
+  window.location.href = "/contact-us";
+};
+const handleFranchiseNavigate = () => {
+  window.location.href = "/franchise-offer";
+};
 export const Footer = () => {
   return (
     <footer className="container-fluid footer_bg p-0 mt-4">
@@ -43,18 +50,15 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
-                  className="text-decoration-none text-white footer_link"
+                  className="text-decoration-none text-white footer_link bg-transparent border-0 link"
+                  onClick={() => {
+                    const element = document.querySelector("#about");
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
                 >
                   About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-decoration-none text-white footer_link"
-                >
-                  Docs
                 </a>
               </li>
               <li>
@@ -67,15 +71,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
-                  className="text-decoration-none text-white footer_link"
-                >
-                  Events
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
+                  onClick={handleContactNavigate}
                   className="text-decoration-none text-white footer_link"
                 >
                   Contact Us
@@ -92,22 +88,7 @@ export const Footer = () => {
                 <a
                   href="#"
                   className="text-decoration-none text-white footer_link"
-                >
-                  Explore VPS
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-decoration-none text-white footer_link"
-                >
-                  Events
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-decoration-none text-white footer_link"
+                  onClick={handleFranchiseNavigate}
                 >
                   Franchise Offer
                 </a>

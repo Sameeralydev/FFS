@@ -46,15 +46,6 @@ export const messages = {
     designation: "Founder & Chairman",
   },
   Director: {
-    title: "Leadership Is About Inspiring Others!",
-    description: `As the Principal, I believe in fostering a culture of excellence,
-        compassion, and innovation. Our goal is to provide students with the
-        skills and mindset they need to excel in a rapidly changing world.`,
-    image: director,
-    owner: "Mrs Noreen Faisal",
-    designation: "Director",
-  },
-  Director2: {
     title: "Empowering Future Leaders!",
     description: `As the Director, I am dedicated to ensuring that our students
         receive a holistic education that goes beyond academics, nurturing
@@ -62,6 +53,15 @@ export const messages = {
     image: director2,
     owner: "Mrs Saima Waqas",
     designation: "Director",
+  },
+    "Co-Director": {
+    title: "Leadership Is About Inspiring Others!",
+    description: `As the Principal, I believe in fostering a culture of excellence,
+        compassion, and innovation. Our goal is to provide students with the
+        skills and mindset they need to excel in a rapidly changing world.`,
+    image: director,
+    owner: "Mrs Noreen Faisal",
+    designation: "Co-Director",
   },
 };
 
