@@ -1,0 +1,35 @@
+.announcement_banner {
+  background: #FFD700;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.announcement_marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 30s linear infinite;
+}
+
+.announcement_text {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  padding-right: 100vw;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

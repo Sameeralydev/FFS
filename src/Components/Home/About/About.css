@@ -440,6 +440,14 @@
     gap: 30px;
     align-items: center;
 }
+.cur_body_data:hover {
+    background-color: #FFAA00;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
 
 .cur_img {
     position: relative;
@@ -479,6 +487,9 @@
     margin-bottom: 0;
 }
 
+.cur_body_data:hover .cur_item {
+    font-weight: 900;
+}
 .cur_desp {
     font-family: 'Montserrat';
     font-size: 14px;

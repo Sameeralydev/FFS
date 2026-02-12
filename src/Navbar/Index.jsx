@@ -10,12 +10,15 @@ import {
 } from "react-icons/md";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import navbarlinks from "../Data/navbar";
+import { AnnouncementBanner } from "../Components/AnnouncementBanner/Index";
 
 export const CustomNavbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
   return (
-    <div className="container-fluid navbar_bg">
+    <>
+      <AnnouncementBanner />
+      <div className="container-fluid navbar_bg">
       <div className="container position-relative">
         <img
           src={Navbar_line}
@@ -86,5 +89,6 @@ export const CustomNavbar = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
